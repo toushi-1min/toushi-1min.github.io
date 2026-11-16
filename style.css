@@ -1,0 +1,14 @@
+:root{--bg:#0b1630;--card:#111f42;--ink:#e8eefc;--sub:#9fb0d6;--neon:#3ee0ff;--up:#ff5a7a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.8}
+main{max-width:720px;margin:0 auto;padding:40px 16px 64px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:28px}
+header img{width:72px;height:72px;border-radius:50%;box-shadow:0 0 18px rgba(62,224,255,.45)}
+h1{font-size:1.5rem;margin:0}
+h2{font-size:1.1rem;margin:32px 0 8px;color:var(--neon)}
+p,li{color:var(--ink)}
+.sub{color:var(--sub);font-size:.9rem}
+.card{background:var(--card);border:1px solid rgba(62,224,255,.25);border-radius:14px;padding:20px 22px;margin:16px 0}
+a{color:var(--neon)}
+nav{margin-top:40px;font-size:.9rem;color:var(--sub)}
+nav a{margin-right:16px}
